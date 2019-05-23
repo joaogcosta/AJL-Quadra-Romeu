@@ -1,0 +1,108 @@
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: url('../imagens/wpp2.jpg') fixed center no-repeat;
+}
+.title {
+    padding: 15px;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+#container-cds{
+    margin-top: 100px;
+    padding: 10px;
+}
+.container-inc{
+	margin-top: 100px;;
+}
+.sbr{
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.img-sbr{
+    margin-top: 30px;
+}
+.btn-inc {
+	margin-top: 20px;
+}
+.display-4 {
+	margin-bottom: 20px;
+}
+.container-glr {
+	margin: 0 auto;
+	max-width: 700px;
+	max-height: 100vh;
+    background-color: white;
+	margin-top: 60px;
+	padding: 30px;
+}
+.xy-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.transition {
+	transition: all 350ms ease-in-out;
+}
+
+.r-3-2 {
+	width: 100%;
+	padding-bottom: 66.667%;
+	background-color: #ddd;
+}
+
+.image-holder {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/* Main Styles */
+.gallery-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.gallery {
+	position: relative;
+	white-space: nowrap;
+	font-size: 0;
+}
+
+.item-wrapper {
+	cursor: pointer;
+	width: 23%; /* arbitrary value */
+	display: inline-block;
+	background-color: white;
+}
+
+.gallery-item { opacity: 0.5; }
+.gallery-item.active { opacity: 1; }
+
+.controls {
+	font-size: 0;
+	border-top: none;
+}
+.move-btn {
+	display: inline-block;
+	width: 50%;
+	border: none;
+  color: #ccc;
+	background-color: transparent;
+	padding: 0.2em 1.5em;
+}
+.move-btn:first-child {border-right: none;}
+.move-btn.left  { cursor: w-resize; }
+.move-btn.right { cursor: e-resize; }
+

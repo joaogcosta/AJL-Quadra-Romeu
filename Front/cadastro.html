@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AJL | Cadastro</title>
+</head>
+<body>
+<!-- Menu de navegação -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">AJL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarNavigator" aria-controls="navBarNavigator" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navBarNavigator">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container bg-light text-dark" id="container-cds">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="title">Cadastre-se para marcar sua hora nas nossas quadras</h1>
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Senha</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Seu endereço</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Rua Internacional 1909">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Complemento</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Casa, apartamento, etc..">
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Confirmo os dados acima
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+              </form>
+              <div class="row">
+                <div class="col-12">
+                  <h5>Se você já um usuário, clique <a href="login.html">aqui</a> para fazer loguin</h5>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<footer class="nav navbar-expand-lg navbar-dark bg-dark fixed-bottom text-white dflex justify-content-center">
+    <div class="text-center">
+        © 2019 Copyright: João e Lucas
+    </div>
+</footer>
+
+<script src="javascript/jquery-3.4.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
